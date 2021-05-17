@@ -1,0 +1,40 @@
+html, body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#app {
+    width: 500px; 
+    height: 500px; 
+    margin: auto; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center;
+}
+
+h1, h3 {
+    font-weight: normal;
+}
+
+img {
+    border-radius: 50px;
+    border: 5px red solid; 
+}
+.male {
+    border-color: steelblue; 
+    background-color: steelblue;
+}
+.female {
+    border-color: pink; 
+    background-color: pink; 
+}
+
+button {
+    cursor:pointer;
+    display: inline-block;
+    background-color: slategray;
+    color: white; 
+    font-size: 17px; 
+    border: 0; 
+    padding: 10px 20px 10px 20px; 
+
+}
